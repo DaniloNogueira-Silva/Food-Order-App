@@ -17,7 +17,7 @@ app.use(cors());
 // rotas
 app.use('/auth', authController);
 app.use('/product', productController);
-app.use('/uplaod', uploadController);
+app.use('/upload', uploadController);
 
 // iniciando o server
 const port = process.env.PORT || 5000
