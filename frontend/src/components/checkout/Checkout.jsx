@@ -10,9 +10,9 @@ const Checkout = () => {
   return (
     <div className={classes.container}>
       <div className={classes.wrapper}>
-        <h2>Your order is successful</h2>
-        <p>Expect it in 1 hour</p>
-        <span>Total Price: ${totalPrice}</span>
+        <h2>Pedido feito com sucesso</h2>
+        <p>Será entregue dentro de 1 hora</p>
+        <span>Preço total: R${totalPrice}</span>
       </div>
     </div>
   )
