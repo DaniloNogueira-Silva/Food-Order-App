@@ -20,10 +20,6 @@ function App() {
   window.scrollTo(0, 0)
  }, [location.pathname])
  
- useEffect(() => {
-   window.scrollTo(0, 0)
- }, [location.pathname])
-
 
   return (
     <div>
