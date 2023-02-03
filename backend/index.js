@@ -15,6 +15,7 @@ app.use(express.urlencoded({ extended: true}));
 app.use(cors());
 
 // rotas
+app.use('/images', express.static('public/images'))
 app.use('/auth', authController);
 app.use('/product', productController);
 app.use('/upload', uploadController);
