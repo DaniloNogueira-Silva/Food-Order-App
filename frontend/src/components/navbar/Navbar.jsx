@@ -39,10 +39,7 @@ const Navbar = () => {
               <a href="#contacts">Contato</a>
             </li>
             <li className={classes.listItem}>
-              <a href="#foods">Pizzas</a>
-            </li>
-            <li className={classes.listItem}>
-              <a href="#FAQ">FAQ</a>
+              <a href="#foods">Comidas</a>
             </li>
             <li className={classes.listItem}>
               <Link to={'/create'}>Criar</Link>
